@@ -1,0 +1,49 @@
+.index {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+@media (max-width: 600px) {
+  .index {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.container {
+  display: flex;
+}
+@media (max-width: 600px) {
+  .container {
+    height: auto;
+    gap: 20px;
+  }
+}
+
+.arrow-left {
+  cursor: pointer;
+  height: 60px;
+  margin-top: 340px;
+  z-index: 1;
+}
+@media (max-width: 600px) {
+  .arrow-left {
+    position: absolute;
+    left: 3px;
+    width: 25px;
+    height: 55px;
+  }
+}
+
+.arrow-right {
+  cursor: pointer;
+  height: 60px;
+  margin-top: 340px;
+}
+@media (max-width: 600px) {
+  .arrow-right {
+    position: absolute;
+    right: 3px;
+    width: 25px;
+    height: 55px;
+  }
+}/*# sourceMappingURL=index.css.map */

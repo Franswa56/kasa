@@ -1,0 +1,9 @@
+.about-page {
+    padding-left: 100px;
+    padding-right: 100px;
+    &__collapse {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+}

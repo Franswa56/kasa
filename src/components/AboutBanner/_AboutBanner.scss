@@ -1,0 +1,11 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.about__banner {
+    &__image {
+        height: 223px;
+        width: 100%;
+        object-fit: cover;
+        @include big-radius;
+    }
+}

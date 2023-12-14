@@ -1,0 +1,32 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.banner-container {
+	height: 111px;
+	@include small-radius;
+	@include flex-banner;
+	height: 223px;
+	@include big-radius;
+	background: $banner-background;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center;
+	}
+
+
+.banner-text {
+	position: absolute;
+	top: 28.04%;
+	left: 5.6%;
+	right: 32.53%;
+	bottom: 80.05%;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 100%;
+	color: $tertiary-color;
+	@include small-radius;
+	width: 217px;
+	height: 48px;
+
+}

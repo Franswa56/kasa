@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/Title/Title.scss","../src/style/_mixins.scss","../src/style/_variables.scss","Title.css"],"names":[],"mappings":"AAII;ECoBA,eAAA;EACA,kBAAA;EACA,gBDrByB;ECsBzB,mBAAA;EDrBI,cENQ;EFOR,WAAA;AGAR;AHEI;ECeA,eAAA;EACA,kBAAA;EACA,gBDhByB;ECiBzB,mBAAA;EDhBI,cEXQ;EFYR,WAAA;AGGR","file":"Title.css"}

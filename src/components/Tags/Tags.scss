@@ -1,0 +1,17 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.tags-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.tag {
+    background-color: $primary-color;   
+    padding: 4px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    color: white;
+
+}
