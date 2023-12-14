@@ -9,3 +9,11 @@
         @include big-radius;
     }
 }
+@media (max-width: 600px) {
+    .about__banner {
+        &__image {
+            height: 111px;
+            @include small-radius;
+}
+}
+}

@@ -1,0 +1,15 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.appart {
+    &__title {
+        @include font (36px, 500);
+        color: $primary-color;
+        margin: 0px
+    }
+    &__location {
+        @include font (18px, 500);
+        color: $primary-color;
+        margin: 0px;
+    }
+}

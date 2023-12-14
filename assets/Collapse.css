@@ -42,4 +42,24 @@
 .collapse__container .collapse__content.open {
   height: 200px;
   padding: 15px;
+}/*# sourceMappingURL=Collapse.css.map */__container .collapse__content.open {
+    padding: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .collapse__title {
+    font-size: 13px;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 20px;
+  }
+  .collapse__content {
+    font-size: 10px;
+    padding: 0 5px;
+  }
+  img {
+    width: 15px;
+  }
 }/*# sourceMappingURL=Collapse.css.map */

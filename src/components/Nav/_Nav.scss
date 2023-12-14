@@ -17,7 +17,7 @@
 		&:focus {
 			text-decoration-line: underline;
 		}
-		@media (max-width: 850px) {
+		@media (max-width: 700px) {
 			padding-left: 26px;
 			@include font-right(10px)
 		}

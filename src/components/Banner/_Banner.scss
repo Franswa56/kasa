@@ -12,21 +12,33 @@
     background-repeat: no-repeat;
     background-size: cover;
 	background-position: center;
+	@media (max-width: 600px) {
+		height: 111px;
+		@include small-radius
+	}
 	}
 
 
 .banner-text {
-	position: absolute;
-	top: 28.04%;
-	left: 5.6%;
-	right: 32.53%;
-	bottom: 80.05%;
-	font-size: 24px;
+	font-size: 48px;
+	text-align: center;
 	font-weight: 500;
 	line-height: 100%;
 	color: $tertiary-color;
 	@include small-radius;
-	width: 217px;
-	height: 48px;
+}
 
+.mobile-break {
+	display: none;
+}
+
+@media (max-width: 600px) {
+	.banner-text {
+	font-size: 24px;
+	text-align: left;
+	width: 255px;
+	}
+	.mobile-break {
+		display: block;
+	}
 }

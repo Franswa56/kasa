@@ -1,0 +1,22 @@
+@import '../../style/mixins';
+@import '../../style/variables';
+
+.accommodation {
+    padding-left: 100px;
+    padding-right: 100px;
+    &__infos {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__tag-and-rate {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    &__collapses {
+        display: flex;
+        justify-content: space-between;
+        gap: 76px;
+    }
+
+}
