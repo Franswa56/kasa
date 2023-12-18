@@ -23,9 +23,9 @@
         color: $primary-color;
         @include font(18px, 300);
         padding: 0 15px;
-        height: 0px;
+        max-height: 0px;
         overflow: hidden;
-        transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;       
+        transition: max-height 0.5s ease, padding 0.5s ease;       
     }
     &__container {
         width: 100%;
@@ -41,7 +41,7 @@
   }
 
   .collapse__container .collapse__content.open {
-    height: 200px;
+    max-height: 600px;
     padding: 15px;
     @media (max-width: 600px) {
       padding: 5px;
