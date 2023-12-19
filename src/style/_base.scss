@@ -35,8 +35,4 @@ main {
 .wh-msk {
 	background: $secondary-color;
 	@include small-radius;
-
-	@media screen and (min-width: $breakpoint-desktop) {
-		@include big-radius;
-	}
 }

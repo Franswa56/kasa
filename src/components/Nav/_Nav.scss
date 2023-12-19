@@ -2,9 +2,10 @@
 @import '../../style/variables';
 
 .nav-header {
-	@include flex-end;
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
 	text-transform: uppercase;
-
 	&_link-home,
 	&_link-about {
 		@include font-right(12px);
