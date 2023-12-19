@@ -2,9 +2,10 @@
 @import '../../style/variables';
 
 .nav-header {
-	@include flex-end;
+	display: flex;
+    align-items: center;
+    justify-content: flex-end;
 	text-transform: uppercase;
-
 	&_link-home,
 	&_link-about {
 		@include font-right(12px);
@@ -17,7 +18,7 @@
 		&:focus {
 			text-decoration-line: underline;
 		}
-		@media (max-width: 850px) {
+		@media (max-width: 700px) {
 			padding-left: 26px;
 			@include font-right(10px)
 		}

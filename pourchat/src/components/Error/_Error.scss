@@ -1,5 +1,5 @@
-@import '../../../style/mixins';
-@import '../../../style/variables';
+@import '../../style/mixins';
+@import '../../style/variables';
 
 .error-container {
     text-align: center;
@@ -27,4 +27,16 @@
     font-size: 18px;
     font-weight: 500;
     color: $primary-color;
+}
+
+@media (max-width: 600px) {
+    .error-number {
+        font-size: 96px;
+    }
+    .error-text {
+        font-size: 18px;
+    }
+    .error-linkHome {
+        font-size: 14px;
+    }
 }

@@ -1,1 +1,1 @@
-{"version":3,"sources":["../src/components/Tags/Tags.scss","Tags.css","../src/style/_variables.scss"],"names":[],"mappings":"AAGA;EACI,aAAA;EACA,SAAA;EACA,gBAAA;ACFJ;;ADIA;EACI,yBETY;EFUZ,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,mBAAA;EACA,YAAA;ACDJ","file":"Tags.css"}
+{"version":3,"sources":["../pourchat/src/components/Tags/Tags.scss","Tags.css","../pourchat/src/style/_variables.scss"],"names":[],"mappings":"AAGA;EACI,aAAA;EACA,SAAA;EACA,gBAAA;ACFJ;;ADIA;EACI,yBETY;EFUZ,YAAA;EACA,kBAAA;EACA,mBAAA;EACA,mBAAA;EACA,YAAA;ACDJ","file":"Tags.css"}":"Tags.css"}

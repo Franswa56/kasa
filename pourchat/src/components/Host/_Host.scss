@@ -19,3 +19,15 @@
         text-align: right;
     } 
 }
+
+@media (max-width: 600px) {
+    .host {
+    &__picture {
+        height: 32px;
+        width: 32px;
+    }
+    &__name {
+        font-size: 12px;
+    }
+}
+}
